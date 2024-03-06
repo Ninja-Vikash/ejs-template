@@ -307,5 +307,5 @@ npm run deploy
 npm run dev
 ```
 
-Your ejs-template engine is running at [localhost:4000](localhost:4000)
+Your ejs-template engine is running at [localhost:4000](http://localhost:4000/)
 <h3 align="center">Happy Coding!</h3>
