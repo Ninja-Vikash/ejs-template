@@ -1,0 +1,28 @@
+.link {
+    position: absolute;
+    bottom: 36px;
+    left: 50px;
+    color: white;
+    display: flex;
+    gap: 7px;
+}
+
+.links {
+    height: 40px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link img {
+    padding: 0;
+    height: 32px;
+    transition: border linear 0.4s;
+    border-radius: 20px;
+}
+
+.link img:hover {
+    outline: 2px solid white;
+    outline-offset: 1px;
+}
