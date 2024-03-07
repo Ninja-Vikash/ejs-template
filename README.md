@@ -1,16 +1,63 @@
+<p align="center">
+    <img src="https://github.com/Ninja-Vikash/asset-cloud/blob/main/icon%20%26%20png/ejs-icon.png" height="60px"/>
 <h1 align="center">EJS-Template</h1>
+</p>
 
-## Instruction for deploying ejs-template 🔰
-#### Initialize your project as npm project
+### About 😃
+**EJS-Template** is a convenient deployment tool designed for Node.js applications using the Express framework with EJS templates. With just one simple command, this tool automates the creation of essential directories and files, streamlining the process of setting up your Express project with EJS templates.
+
+### Features 🌟
+
+* **Effortless Deployment**
+  
+  EJS-Template eliminates the hassle of manual setup by providing a single command for deploying your Express application with EJS templates.
+* **Directory Structure**
+  
+  The tool creates a well-organized directory structure, ensuring a clean and scalable project layout. Directories such as "views," "public," and "css" are automatically generated to maintain the separation of concerns.
+* **Default Files**
+  
+  EJS-Template includes default files like index.js, index.ejs, and index.css to kickstart your project. These files are preconfigured with basic settings and examples, allowing you to focus on building your application logic.
+* **Express Configuration**
+
+  The tool sets up the initial configuration for Express, including middleware for static files and EJS template rendering. This ensures that your project is ready for development without additional manual configuration.
+
+### Folder structure 🏗️
+```
+📁myapp
+└── index.js
+└── main.js
+└── package-lock.json
+└── package.json
+└── 📁public
+    └── code.svg
+    └── 📁css
+        └── index.css
+        └── link.css
+    └── ejs.svg
+    └── github.svg
+    └── linkedin.svg
+└── README.md
+└── 📁views
+    └── index.ejs
+    └── link.ejs
+```
+*****
+### Getting started 🚀
+#### Initialize your project as an npm project
+To establish an Express environment, it's essential to initialize our project as an npm project.
 
 ```bash
 npm init -y
 ```
+> [!NOTE]
+> Execute `npm init -y` to skip configuration questions
 #### Install dependencies
+To install the required dependencies execute the following command 👇
 ```bash
 npm install express@4 ejs
 ```
 #### Update script
+To streamline the deployment of all directories and files, update the scripts section in your `package.json`. ⚙️
 ```json
 "scripts": {
     "start": "node index.js",
@@ -19,8 +66,11 @@ npm install express@4 ejs
 },
 ```
 > [!IMPORTANT]\
-> Update script in `package.json`
+> Don't forget to update scripts in your `package.json`
 #### Create main.js
+> [!IMPORTANT]\
+> Responsibility for deploying all directories and files lies with `main.js` 💡
+
 ```js
 const fs = require("fs");
 
@@ -294,20 +344,21 @@ setTimeout(() => {
  */
 ```
 
-> [!IMPORTANT]\
-> Open `main.js` file and paste the above code 👆
-
-#### Run deploy command
+#### Command for deployment
 ```bash
 npm run deploy
 ```
 > [!WARNING]\
-> Make sure you have updated script in `package.json`
+> Ensure that you've updated the script in your `package.json` file 🔧
 
-#### Start server
+#### Start server 🖥️
 ```bash
 npm run dev
 ```
 
-Your ejs-template engine is running at [localhost:4000](http://localhost:4000/)
-<h3 align="center">Happy Coding!</h3>
+Your EJS-Template project is running at [localhost:4000](http://localhost:4000/)
+
+EJS-Template aims to simplify the initial setup process for Express applications using EJS templates, enabling developers to focus more on building features and less on project configuration.
+##### Developed by 👩‍💻🔧 : [Ninja-Vikash](https://github.com/Ninja-Vikash)
+#### Crafted with ❤️ and JavaScript magic..
+<h3 align="center">Happy Coding🤝!</h3>
