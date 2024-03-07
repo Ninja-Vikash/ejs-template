@@ -1,27 +1,3 @@
-<h1 align="center">EJS-Template</h1>
-
-## Instruction for deploying ejs-template 🔰
-#### Initialize your project as npm project
-
-```bash
-npm init -y
-```
-#### Install dependencies
-```bash
-npm install express@4 ejs
-```
-#### Update script
-```json
-"scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "deploy": "node main.js"
-},
-```
-> [!IMPORTANT]\
-> Update script in `package.json`
-#### Create main.js
-```js
 const fs = require("fs");
 
 /**
@@ -292,22 +268,3 @@ setTimeout(() => {
 /**
  * ===================== Thank You! ====================
  */
-```
-
-> [!IMPORTANT]\
-> Open `main.js` file and paste the above code 👆
-
-#### Run deploy command
-```bash
-npm run deploy
-```
-> [!WARNING]\
-> Make sure you have updated script in `package.json`
-
-#### Start server
-```bash
-npm run dev
-```
-
-Your ejs-template engine is running at [localhost:4000](http://localhost:4000/)
-<h3 align="center">Happy Coding!</h3>
