@@ -1,16 +1,16 @@
 {
-  "name": "ejs",
+  "name": "ejs-template",
   "version": "1.0.0",
-  "description": "This ejs template deployer",
+  "description": "ejs-template is the efficient tool to deploy an ejs project with some demo files",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "deploy": "node main.js"
 },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ejs"],
+  "author": "ninja-vikash",
+  "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.3"
