@@ -87,7 +87,7 @@ const IndexEJS1 = `<!DOCTYPE html>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script>
-        const nodejs = '<i class="fa-brands fa-node"></i>';
+        const js = '<i class="fa-brands fa-js" style="color: #fbff1a;"></i>';
         const love = '<i class="fa-solid fa-heart" style="color: #ff1a1a;"></i>'
         const craft = '<i class="fa-solid fa-wand-magic-sparkles"></i>'
 
@@ -96,7 +96,7 @@ const IndexEJS1 = `<!DOCTYPE html>
 
 fs.writeFile("views/index.ejs", IndexEJS1 , ()=>console.log("FILE: index.ejs has been deployed!"))
 
-const IndexEJS2 = 'strings: [`This is EJS Template Builder ${craft}`, `Developed by ${love} and nodejs ${nodejs}`],'
+const IndexEJS2 = 'strings: [`This is EJS Template Builder ${craft}`, `Developed by ${love} and JavaScript ${js}`],'
 const IndexEJS3 = `
             typeSpeed: 40,
         });
